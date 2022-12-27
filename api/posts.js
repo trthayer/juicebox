@@ -110,7 +110,7 @@ postsRouter.patch('/:postId', requireUser, async (req, res, next) => {
       res.send({
         posts
     });
-    } catch ({ naem, message }) {
+    } catch ({ name, message }) {
       next({ name, message })
     }
   });
