@@ -24,7 +24,7 @@ postsRouter.post('/', requireUser, async (req, res, next) => {
         } else {
             next(error)
         }
-
+ 
     } catch ({ name, message }) {
         next({ name, message });
     }
