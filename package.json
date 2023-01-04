@@ -4,16 +4,16 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "seed:dev": "nodemon ./db/seed.js",
+    "seed:dev": "node ./db/seed.js",
     "start": "node index.js",
-    "start:dev": "nodemon indexljs",
+    "start:dev": "nodemon index.js",
     "build": "webpack"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "node": "^2.0.20"
+    "nodemon": "^2.0.20"
   },
   "dependencies": {
     "dotenv": "^16.0.3",
